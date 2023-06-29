@@ -3,6 +3,7 @@ import HeroSection from '../components/pages/home/hero-section';
 import categories from '../data/categories.json';
 import collections from '../data/collections.json';
 import { Testimonials } from '@/components/pages/Testimonials';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,10 +16,10 @@ export default function Home() {
             <h2 id="category-heading" className="text-2xl font-bold tracking-tight text-gray-900">
               Shop by Category
             </h2>
-            <a href="#" className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+            <Link href="#" className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
               Browse all categories
               <span aria-hidden="true"> &rarr;</span>
-            </a>
+            </Link>
           </div>
 
           <div className="mt-4 flow-root">
@@ -26,7 +27,7 @@ export default function Home() {
               <div className="relative box-content h-80 overflow-x-auto py-2 xl:overflow-visible">
                 <div className="absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0">
                   {categories.map((category) => (
-                    <a
+                    <Link
                       key={category.name}
                       href={category.href}
                       className="relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto"
@@ -39,7 +40,7 @@ export default function Home() {
                         className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"
                       />
                       <span className="relative mt-auto text-center text-xl font-bold text-white">{category.name}</span>
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -47,10 +48,10 @@ export default function Home() {
           </div>
 
           <div className="mt-6 px-4 sm:hidden">
-            <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+            <Link href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
               Browse all categories
               <span aria-hidden="true"> &rarr;</span>
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -96,7 +97,7 @@ export default function Home() {
 
           <div className="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
             {collections.map((collection) => (
-              <a key={collection.name} href={collection.href} className="group block">
+              <Link key={collection.name} href={collection.href} className="group block">
                 <div
                   aria-hidden="true"
                   className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
@@ -110,7 +111,7 @@ export default function Home() {
                 </div>
                 <h3 className="mt-4 text-base font-semibold text-gray-900">{collection.name}</h3>
                 <p className="mt-2 text-sm text-gray-500">{collection.description}</p>
-              </a>
+              </Link>
             ))}
           </div>
         </section>

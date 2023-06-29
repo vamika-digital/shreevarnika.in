@@ -53,7 +53,7 @@ export default function TermsAndConditions() {
             </div>
 
             <p className="mt-2 tracking-tight text-slate-700">Please note that these Terms and Conditions may be subject to change without prior notice. It is your responsibility to review this page periodically for any updates or modifications.</p>
-            <p className="mt-4 tracking-tight text-slate-700">If you have any questions or concerns regarding our Terms and Conditions, please contact us at <a className="text-blue-600/100 hover:text-amber-600" href="mailto: support@shreevarnika.in">support@shreevarnika.in</a>.</p>
+            <p className="mt-4 tracking-tight text-slate-700">If you have any questions or concerns regarding our Terms and Conditions, please contact us at <a className="text-blue-600/100 hover:text-amber-600" href="mailto:support@shreevarnika.in">support@shreevarnika.in</a>.</p>
 
             <div className="mt-4 tracking-tight text-slate-700">
               <p className="font-bold">Shree Varnika Royal Products Private Limited</p>

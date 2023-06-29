@@ -54,7 +54,7 @@ export default function Careers() {
             <p className="mt-2 tracking-tight text-slate-700">Come back here for our upcoming openings</p>
             
             <p className="mt-4 text-lg font-bold tracking-tight text-slate-700">How to Apply:</p>
-            <p className="mt-4 tracking-tight text-slate-700">To apply for a position at Shree Varnika, please send your resume/CV and a cover letter to <a className="text-blue-600/100 hover:text-amber-600" href="mailto: careers@shreevarnika.in">careers@shreevarnika.in</a>. Please include the job title in the subject line of your email. We review all applications carefully and will reach out to candidates whose qualifications align with our requirements.</p>
+            <p className="mt-4 tracking-tight text-slate-700">To apply for a position at Shree Varnika, please send your resume/CV and a cover letter to <a className="text-blue-600/100 hover:text-amber-600" href="mailto:careers@shreevarnika.in">careers@shreevarnika.in</a>. Please include the job title in the subject line of your email. We review all applications carefully and will reach out to candidates whose qualifications align with our requirements.</p>
             
             <p className="mt-4 text-lg font-bold tracking-tight text-slate-700">Join the Shree Varnika Family:</p>
             <p className="mt-4 tracking-tight text-slate-700">At Shree Varnika, we take pride in our products, our team, and the impact we make on the culinary world. If you are passionate about our offerings and are driven to excel in a fast-paced, dynamic environment, we invite you to consider a career with us.</p>

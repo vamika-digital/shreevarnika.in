@@ -9,6 +9,7 @@ import {
 
 import navigation from '../../data/navigation.json';
 import { classNames } from '../../utils/helper'
+import Link from 'next/link';
 
 
 
@@ -22,7 +23,7 @@ export default function MainHeader({ setMobileMenuOpen }) {
               <div className="flex h-16 items-center justify-between">
                 {/* Logo (lg+) */}
                 <div className="hidden lg:flex lg:flex-1 lg:items-center">
-                  <a href="/" className="flex items-center">
+                  <Link href="/" className="flex items-center">
                     <Image
                       alt="Shree Varnika Royal Products Pvt. Ltd."
                       src="/logo.png"
@@ -30,7 +31,7 @@ export default function MainHeader({ setMobileMenuOpen }) {
                       className="h-14 w-auto"
                     />
                     <span className="ml-3 w-52 text-sm font-bold text-primary">Shree Varnika Royal Products Pvt. Ltd.</span>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="hidden h-full lg:flex">
@@ -80,10 +81,10 @@ export default function MainHeader({ setMobileMenuOpen }) {
                                                 width="280" height="340"
                                               />
                                             </div>
-                                            <a href={item.href} className="mt-4 block font-medium text-gray-900">
+                                            <Link href={item.href} className="mt-4 block font-medium text-gray-900">
                                               <span className="absolute inset-0 z-10" aria-hidden="true" />
                                               {item.name}
-                                            </a>
+                                            </Link>
                                             <p aria-hidden="true" className="mt-1">
                                               Shop now
                                             </p>
@@ -100,13 +101,13 @@ export default function MainHeader({ setMobileMenuOpen }) {
                       ))}
 
                       {navigation.pages.map((page) => (
-                        <a
+                        <Link
                           key={page.name}
                           href={page.href}
                           className="flex items-center text-sm font-bold text-gray-500"
                         >
                           {page.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </Popover.Group>
@@ -120,14 +121,14 @@ export default function MainHeader({ setMobileMenuOpen }) {
                   </button>
 
                   {/* Search */}
-                  <a href="#" className="ml-2 p-2 text-sm font-bold text-gray-500">
+                  <Link href="#" className="ml-2 p-2 text-sm font-bold text-gray-500">
                     <span className="sr-only">Search</span>
                     <MagnifyingGlassIcon className="h-6 w-6" aria-hidden="true" />
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Logo (lg-) */}
-                <a href="/" className="lg:hidden">
+                <Link href="/" className="lg:hidden">
                   <span className="sr-only">Shree Varnika Royal Products Pvt. Ltd.</span>
                   <Image
                     alt="Shree Varnika Royal Products Pvt. Ltd."
@@ -135,21 +136,21 @@ export default function MainHeader({ setMobileMenuOpen }) {
                     width="96" height="96"
                     className="h-14 w-auto"
                   />
-                </a>
+                </Link>
 
                 {/* <div className="flex flex-1 items-center justify-end">
-                  <a href="#" className="hidden text-sm font-bold text-gray-500 lg:block">
+                  <Link href="#" className="hidden text-sm font-bold text-gray-500 lg:block">
                     Search
-                  </a>
+                  </Link>
 
                   <div className="flex items-center lg:ml-8">
-                    <a href="#" className="p-2 text-gray-500 lg:hidden">
+                    <Link href="#" className="p-2 text-gray-500 lg:hidden">
                       <span className="sr-only">Help</span>
                       <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
-                    </a>
-                    <a href="#" className="hidden text-sm font-bold text-gray-500 lg:block">
+                    </Link>
+                    <Link href="#" className="hidden text-sm font-bold text-gray-500 lg:block">
                       Help
-                    </a>
+                    </Link>
                   </div>
                 </div> */}
               </div>

@@ -228,7 +228,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 5577:
+/***/ 3161:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -287,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9797)), "/Users/viveksingh/development/projects/shreevarnika.in/src/app/page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1115)), "/Users/viveksingh/development/projects/shreevarnika.in/src/app/page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -298,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6690)), "/Users/viveksingh/development/projects/shreevarnika.in/src/app/layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2385)), "/Users/viveksingh/development/projects/shreevarnika.in/src/app/layout.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["/Users/viveksingh/development/projects/shreevarnika.in/src/app/page.js"];
+    const pages = ["/Users/viveksingh/development/projects/shreevarnika.in/src/app/page.jsx"];
 
     
     
@@ -336,10 +336,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 364:
+/***/ 1758:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6249, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3100, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1522, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23))
 
 /***/ }),
 
@@ -365,7 +369,7 @@ module.exports = __webpack_require__(9560);
 
 /***/ }),
 
-/***/ 9797:
+/***/ 1115:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -384,7 +388,7 @@ var next_image = __webpack_require__(993);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
 var react_shared_subset = __webpack_require__(7887);
-;// CONCATENATED MODULE: ./src/components/pages/home/hero-section.js
+;// CONCATENATED MODULE: ./src/components/pages/home/hero-section.jsx
 
 
 
@@ -583,7 +587,10 @@ function HeroSection() {
 const categories_namespaceObject = JSON.parse('[{"name":"Herbs & Spices","href":"#","imageSrc":"/images/categories/herbs-spices/herbs-spices.jpg"},{"name":"Silver Coated Items","href":"#","imageSrc":"/images/categories/herbs-spices/herbs-spices.jpg"},{"name":"Gold Coated Items","href":"#","imageSrc":"/images/categories/herbs-spices/herbs-spices.jpg"},{"name":"New Arrivals","href":"#","imageSrc":"/images/categories/herbs-spices/herbs-spices.jpg"},{"name":"Sale","href":"#","imageSrc":"/images/categories/herbs-spices/herbs-spices.jpg"}]');
 ;// CONCATENATED MODULE: ./src/data/collections.json
 const collections_namespaceObject = JSON.parse('[{"name":"Silver Related Collection","href":"#","imageSrc":"/images/collections/silver.jpg","imageAlt":"Brown leather key ring with brass metal loops and rivets on wood table.","description":"Keep your phone, keys, and wallet together, so you can lose everything at once."},{"name":"Gold Related Collection","href":"#","imageSrc":"/images/collections/gold.jpg","imageAlt":"Natural leather mouse pad on white desk next to porcelain mug and keyboard.","description":"The rest of the house will still be a mess, but your desk will look great."},{"name":"Hurbs Related Collection","href":"#","imageSrc":"/images/collections/herbs-spices.jpg","imageAlt":"Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.","description":"Be more productive than enterprise project managers with a single piece of paper."}]');
-;// CONCATENATED MODULE: ./src/app/page.js
+// EXTERNAL MODULE: ./src/components/pages/Testimonials.jsx
+var Testimonials = __webpack_require__(8372);
+;// CONCATENATED MODULE: ./src/app/page.jsx
+
 
 
 
@@ -682,7 +689,7 @@ function Home() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "absolute inset-0",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-01.jpg",
+                                        src: "/images/products/saffron/saffron-poster.png",
                                         alt: "",
                                         className: "h-full w-full object-cover object-center",
                                         width: "1216",
@@ -699,23 +706,18 @@ function Home() {
                                                 className: "text-3xl font-bold tracking-tight text-white sm:text-4xl",
                                                 children: [
                                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        className: "block sm:inline",
-                                                        children: "Level up"
+                                                        className: "block sm:inline sm:mr-2",
+                                                        children: "Saffron"
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "block sm:inline",
-                                                        children: "your desk"
+                                                        children: "Finest Quality"
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                 className: "mt-3 text-xl text-white",
-                                                children: "Make your desk beautiful and organized. Post a picture to social media and watch it get more likes than life-changing announcements. Reflect on the shallow nature of existence. At least you have a really nice desk setup."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "#",
-                                                className: "mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto",
-                                                children: "Shop Workspace"
+                                                children: "We take great pride in offering the finest quality saffron. Carefully handpicked, our saffron is known for its vibrant color, distinct aroma, and exquisite flavor. We source our saffron from reputable farms to ensure its authenticity and optimal quality. Saffron from Shree Varnika adds a touch of luxury and enhances the taste and visual appeal of a wide range of culinary creations."
                                             })
                                         ]
                                     })
@@ -775,7 +777,7 @@ function Home() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "absolute inset-0",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "https://tailwindui.com/img/ecommerce-images/home-page-01-feature-section-02.jpg",
+                                        src: "/images/products/silver/silver-leaves-horizontal.jpg",
                                         alt: "",
                                         className: "h-full w-full object-cover object-center",
                                         width: "1216",
@@ -790,23 +792,19 @@ function Home() {
                                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                                 id: "comfort-heading",
                                                 className: "text-3xl font-bold tracking-tight text-white sm:text-4xl",
-                                                children: "Simple productivity"
+                                                children: "Silver Leaves and Gold Leaves"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                 className: "mt-3 text-xl text-white",
-                                                children: "Endless tasks, limited hours, a single piece of paper. Not really a haiku, but we're doing our best here. No kanban boards, burndown charts, or tangled flowcharts with our Focus system. Just the undeniable urge to fill empty circles."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "#",
-                                                className: "mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto",
-                                                children: "Shop Focus"
+                                                children: "Our silver leaves and gold leaves are meticulously crafted to perfection. These edible metallic sheets are widely used in Indian sweets and confections, imparting a touch of elegance and opulence to the dining experience. We adhere to strict quality standards to ensure that our silver and gold leaves meet the expectations of both home cooks and professional chefs."
                                             })
                                         ]
                                     })
                                 })
                             ]
                         })
-                    })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Testimonials/* Testimonials */.H, {})
                 ]
             })
         ]
@@ -823,7 +821,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,562,777], () => (__webpack_exec__(5577)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,265,509,580], () => (__webpack_exec__(3161)));
 module.exports = __webpack_exports__;
 
 })();

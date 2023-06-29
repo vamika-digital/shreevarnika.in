@@ -92,7 +92,7 @@ export default function ContactUs() {
                     <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
                   <dd>
-                    <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
+                    <a className="hover:text-gray-900" href="tel:+919873477849">
                       +91 987-347-7849
                     </a>
                   </dd>

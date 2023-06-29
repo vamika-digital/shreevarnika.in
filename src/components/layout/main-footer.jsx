@@ -1,5 +1,6 @@
 import React from 'react'
 import footerNavigation from '../../data/footer-navigation.json';
+import Link from 'next/link';
 
 export default function MainFooter() {
   return (
@@ -14,9 +15,9 @@ export default function MainFooter() {
             <ul role="list" className="mt-6 space-y-6">
               {footerNavigation.shop.map((item) => (
                 <li key={item.name} className="text-sm">
-                  <a href={item.href} className="text-gray-300 hover:text-white">
+                  <Link href={item.href} className="text-gray-300 hover:text-white">
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -26,9 +27,9 @@ export default function MainFooter() {
             <ul role="list" className="mt-6 space-y-6">
               {footerNavigation.company.map((item) => (
                 <li key={item.name} className="text-sm">
-                  <a href={item.href} className="text-gray-300 hover:text-white">
+                  <Link href={item.href} className="text-gray-300 hover:text-white">
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -38,9 +39,9 @@ export default function MainFooter() {
             <ul role="list" className="mt-6 space-y-6">
               {footerNavigation.connect.map((item) => (
                 <li key={item.name} className="text-sm">
-                  <a href={item.href} className="text-gray-300 hover:text-white">
+                  <Link href={item.href} className="text-gray-300 hover:text-white">
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

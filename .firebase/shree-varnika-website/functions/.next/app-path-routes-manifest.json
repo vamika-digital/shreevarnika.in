@@ -1,5 +1,11 @@
 {
   "/page": "/",
   "/favicon.ico/route": "/favicon.ico",
-  "/about-us/page": "/about-us"
+  "/about-us/page": "/about-us",
+  "/contact-us/page": "/contact-us",
+  "/terms-and-conditions/page": "/terms-and-conditions",
+  "/careers/page": "/careers",
+  "/privacy/page": "/privacy",
+  "/press/page": "/press",
+  "/what-we-do/page": "/what-we-do"
 }

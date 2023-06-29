@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function HeroSection() {
@@ -53,15 +54,15 @@ export default function HeroSection() {
                             dry fruits, sweets, and imitation leaves. Our Italian gold leafing services are second to none, and will add a touch of elegance to any home.
                             </p>
                             <div className="mt-10 flex items-center gap-x-6">
-                                <a
+                                <Link
                                     href="#"
                                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                     About Us
-                                </a>
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                                </Link>
+                                <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
                                     Our Products <span aria-hidden="true">→</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

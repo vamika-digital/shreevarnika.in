@@ -4,6 +4,7 @@ import React, { Fragment } from 'react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import navigation from '../../data/navigation.json';
 import { classNames } from '../../utils/helper'
+import Link from 'next/link';
 
 
 export default function MainMobileHeader({ mobileMenuOpen, setMobileMenuOpen }) {
@@ -72,10 +73,10 @@ export default function MainMobileHeader({ mobileMenuOpen, setMobileMenuOpen }) 
                               <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-md bg-gray-100 group-hover:opacity-75">
                                 <Image src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" width="136" height="136" />
                               </div>
-                              <a href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
+                              <Link href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
                                 <span className="absolute inset-0 z-10" aria-hidden="true" />
                                 {item.name}
-                              </a>
+                              </Link>
                               <p aria-hidden="true" className="mt-1 text-sm text-gray-500">
                                 Shop now
                               </p>
@@ -90,9 +91,9 @@ export default function MainMobileHeader({ mobileMenuOpen, setMobileMenuOpen }) 
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   {navigation.pages.map((page) => (
                     <div key={page.name} className="flow-root">
-                      <a href={page.href} className="-m-2 block p-2 font-medium text-gray-900">
+                      <Link href={page.href} className="-m-2 block p-2 font-medium text-gray-900">
                         {page.name}
-                      </a>
+                      </Link>
                     </div>
                   ))}
                 </div>

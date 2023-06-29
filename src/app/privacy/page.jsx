@@ -52,7 +52,7 @@ export default function Privacy() {
               </ol>
             </div>
 
-            <p className="mt-4 tracking-tight text-slate-700">If you have any questions or concerns about our Privacy Policy, please contact us at <a className="text-blue-600/100 hover:text-amber-600" href="mailto: support@shreevarnika.in">support@shreevarnika.in</a>.</p>
+            <p className="mt-4 tracking-tight text-slate-700">If you have any questions or concerns about our Privacy Policy, please contact us at <a className="text-blue-600/100 hover:text-amber-600" href="mailto:support@shreevarnika.in">support@shreevarnika.in</a>.</p>
             <div className="mt-4 tracking-tight text-slate-700">
               <p className="font-bold">Shree Varnika Royal Products Private Limited</p>
               <p className="text-sm"><MapPinIcon className="h-7 w-5 mr-2 inline-flex items-baseline text-indigo-400" aria-hidden="true" />B-78, Sector 65, Noida, Uttar Pradesh 201001</p>
