@@ -1,4 +1,5 @@
 import { classNames } from '@/utils/helper';
+import Image from 'next/image';
 import React from 'react'
 
 export default function SectionSplitWithImage({ imageAtRight, imageSrc, children }) {
@@ -9,6 +10,7 @@ export default function SectionSplitWithImage({ imageAtRight, imageSrc, children
         <Image
           width="524"
           height="632"
+          alt=""
           className={classNames(
             'h-full w-full absolute opacity-25 md:opacity-100 bg-gray-50 object-cover md:inset-y-0 md:w-1/2',
             imageAtRight ? 'md:right-0' : 'md:left-0'

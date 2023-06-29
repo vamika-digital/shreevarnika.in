@@ -53,7 +53,7 @@ export default function AboutUs() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-5xl">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">About Us</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300 text-center">Shree Varnika Royal Products Private Limited is a reputable company dedicated to the manufacturing and distribution of high-quality products. With a commitment to excellence and customer satisfaction, we have established ourselves as a trusted name in the industry. Our company's foundation is built on integrity, innovation, and a relentless pursuit of perfection.
+            <p className="mt-6 text-lg leading-8 text-gray-300 text-center">Shree Varnika Royal Products Private Limited is a reputable company dedicated to the manufacturing and distribution of high-quality products. With a commitment to excellence and customer satisfaction, we have established ourselves as a trusted name in the industry. Our company&apos;s foundation is built on integrity, innovation, and a relentless pursuit of perfection.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

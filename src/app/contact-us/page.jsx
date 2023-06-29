@@ -69,7 +69,7 @@ export default function ContactUs() {
               </div>
               <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Experience the difference with Shree Varnika's premium products. Contact us today to elevate your culinary creations and indulge in the finest flavors of Indian cuisine.
+                Experience the difference with Shree Varnika&apos;s premium products. Contact us today to elevate your culinary creations and indulge in the finest flavors of Indian cuisine.
               </p>
               {/* <p className="mt-6 text-lg leading-8 text-gray-600">
                 Discover the essence of authenticity and quality. Reach out to our team at Shree Varnika to discuss how our products can enhance your culinary experience.
