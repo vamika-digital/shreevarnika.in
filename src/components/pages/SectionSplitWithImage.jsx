@@ -6,7 +6,9 @@ export default function SectionSplitWithImage({ imageAtRight, imageSrc, children
   return (
     <div className="relative bg-white">
       <div className="mx-auto grid max-w-7xl md:grid-cols-2">
-        <img
+        <Image
+          width="524"
+          height="632"
           className={classNames(
             'h-full w-full absolute opacity-25 md:opacity-100 bg-gray-50 object-cover md:inset-y-0 md:w-1/2',
             imageAtRight ? 'md:right-0' : 'md:left-0'

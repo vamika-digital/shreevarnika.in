@@ -1,12 +1,15 @@
 import { MapPinIcon, GlobeAltIcon } from '@heroicons/react/20/solid'
 import { Container } from "@/components/ui/container"
+import Image from 'next/image'
 
 export default function Privacy() {
   return (
     <>
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <img
+        <Image
           src="/images/illustrations/about-us-header.jpg"
+          width="1280"
+          height="678"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />
