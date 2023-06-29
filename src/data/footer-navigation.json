@@ -23,34 +23,38 @@
     ],
     "company": [
       {
-        "name": "Who we are",
-        "href": "#"
+        "name": "About Us",
+        "href": "/about-us"
       },
       {
-        "name": "Sustainability",
-        "href": "#"
+        "name": "What We Do",
+        "href": "/what-we-do"
+      },
+      {
+        "name": "How We Work",
+        "href": "/how-we-work"
       },
       {
         "name": "Press",
-        "href": "#"
+        "href": "/press"
       },
       {
         "name": "Careers",
-        "href": "#"
+        "href": "/careers"
       },
       {
         "name": "Terms & Conditions",
-        "href": "#"
+        "href": "/terms-and-conditions"
       },
       {
         "name": "Privacy",
-        "href": "#"
+        "href": "/privacy"
       }
     ],
     "connect": [
       {
         "name": "Contact Us",
-        "href": "#"
+        "href": "/contact-us"
       },
       {
         "name": "Twitter",

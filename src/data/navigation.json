@@ -37,15 +37,11 @@
       },
       {
         "name": "What We Do",
-        "href": "#"
+        "href": "/what-we-do"
       },
       {
-        "name": "How We Work",
-        "href": "#"
-      },
-      {
-        "name": "Contacts",
-        "href": "#"
+        "name": "Contact Us",
+        "href": "/contact-us"
       }
     ]
   }
