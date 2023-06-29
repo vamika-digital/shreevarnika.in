@@ -1,0 +1,51 @@
+{
+    "categories": [
+      {
+        "name": "Products",
+        "featured": [
+          {
+            "name": "New Arrivals",
+            "href": "#",
+            "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg",
+            "imageAlt": "Models sitting back to back, wearing Basic Tee in black and bone."
+          },
+          {
+            "name": "Basic Tees",
+            "href": "#",
+            "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg",
+            "imageAlt": "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees."
+          },
+          {
+            "name": "Accessories",
+            "href": "#",
+            "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg",
+            "imageAlt": "Model wearing minimalist watch with black wristband and white watch face."
+          },
+          {
+            "name": "Carry",
+            "href": "#",
+            "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg",
+            "imageAlt": "Model opening tan leather long wallet with credit card pockets and cash pouch."
+          }
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "name": "About Us",
+        "href": "/about-us"
+      },
+      {
+        "name": "What We Do",
+        "href": "#"
+      },
+      {
+        "name": "How We Work",
+        "href": "#"
+      },
+      {
+        "name": "Contacts",
+        "href": "#"
+      }
+    ]
+  }

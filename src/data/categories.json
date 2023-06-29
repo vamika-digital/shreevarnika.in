@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Herbs & Spices",
+      "href": "#",
+      "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg"
+    },
+    {
+      "name": "Silver Coated Items",
+      "href": "#",
+      "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg"
+    },
+    {
+      "name": "Gold Coated Items",
+      "href": "#",
+      "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg"
+    },
+    {
+      "name": "New Arrivals",
+      "href": "#",
+      "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg"
+    },
+    {
+      "name": "Sale",
+      "href": "#",
+      "imageSrc": "/images/categories/herbs-spices/herbs-spices.jpg"
+    }
+  ]
