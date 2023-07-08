@@ -45,7 +45,7 @@ export default function Careers() {
             <p className="mt-4 tracking-tight text-slate-700">We believe that our success is driven by the dedication and talent of our team. If you have a passion for exceptional ingredients, a desire to work in a dynamic environment, and a commitment to excellence, we invite you to explore career opportunities with us.</p>
             <p className="mt-4 text-lg font-bold tracking-tight text-slate-700">Why Choose Shree Varnika?</p>
             <div className="mt-2 tracking-tight text-slate-700">
-              <ol class="list-decimal">
+              <ol className="list-decimal">
                 <li>Commitment to Quality: At Shree Varnika, quality is the cornerstone of everything we do. We are committed to maintaining the highest standards in our products, sourcing them responsibly, and ensuring they meet the expectations of our customers.</li>
                 <li>Culture of Collaboration: We foster a culture that values collaboration, teamwork, and open communication. We believe in the power of collective ideas and encourage our employees to contribute their unique perspectives, fostering an environment of innovation and growth.</li>
                 <li>Career Development: We are dedicated to the professional growth and development of our team members. Through training programs, mentorship opportunities, and ongoing support, we strive to provide an environment where employees can learn, thrive, and advance their careers.</li>

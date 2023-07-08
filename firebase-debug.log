@@ -1,0 +1,87 @@
+[debug] [2023-07-08T05:52:33.333Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T05:52:33.335Z] Command:       /usr/local/bin/firebase /Users/viveksingh/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-07-08T05:52:33.336Z] CLI Version:   12.3.1
+[debug] [2023-07-08T05:52:33.336Z] Platform:      darwin
+[debug] [2023-07-08T05:52:33.336Z] Node Version:  v16.16.0
+[debug] [2023-07-08T05:52:33.340Z] Time:          Sat Jul 08 2023 11:22:33 GMT+0530 (India Standard Time)
+[debug] [2023-07-08T05:52:33.340Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-08T05:52:33.346Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-07-08T05:52:33.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T05:52:33.465Z] > authorizing via signed-in user (viveksingh0143@gmail.com)
+[debug] [2023-07-08T05:52:33.465Z] [iam] checking project shree-varnika-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-08T05:52:33.466Z] > refreshing access token with scopes: []
+[debug] [2023-07-08T05:52:33.467Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-08T05:52:33.468Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-08T05:52:33.735Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-08T05:52:33.741Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-08T05:52:33.762Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions [none]
+[debug] [2023-07-08T05:52:33.763Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions x-goog-quota-user=projects/shree-varnika-website
+[debug] [2023-07-08T05:52:33.765Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T05:52:34.104Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-07-08T05:52:34.107Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-07-08T05:52:35.518Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions 200
+[debug] [2023-07-08T05:52:35.520Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T05:52:35.522Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website [none]
+[debug] [2023-07-08T05:52:36.026Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website 200
+[debug] [2023-07-08T05:52:36.028Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website {"projectId":"shree-varnika-website","projectNumber":"195432873456","displayName":"Shree Varnika Website","name":"projects/shree-varnika-website","resources":{"hostingSite":"shree-varnika-website"},"state":"ACTIVE","etag":"1_3dac2206-5644-4862-95f5-c514ebed01ca"}
+[debug] [2023-07-08T05:52:39.689Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites pageToken=&pageSize=10
+[debug] [2023-07-08T05:52:41.028Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 200
+[debug] [2023-07-08T05:52:41.029Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites {"sites":[{"name":"projects/shree-varnika-website/sites/shree-varnika-website","defaultUrl":"https://shree-varnika-website.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-08T05:52:41.030Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 
+[debug] [2023-07-08T05:52:42.278Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 200
+[debug] [2023-07-08T05:52:42.282Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites {"sites":[{"name":"projects/shree-varnika-website/sites/shree-varnika-website","defaultUrl":"https://shree-varnika-website.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-08T05:52:42.284Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config [none]
+[debug] [2023-07-08T05:52:43.499Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config 200
+[debug] [2023-07-08T05:52:43.504Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config {"projectId":"shree-varnika-website","appId":"1:195432873456:web:43a4b9affca9794621b135","storageBucket":"shree-varnika-website.appspot.com","apiKey":"AIzaSyDU2m7pd2_3AwbkJCfkWitmaNLXZpae9js","authDomain":"shree-varnika-website.firebaseapp.com","messagingSenderId":"195432873456","measurementId":"G-0Y43X09X9K"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-07-08T05:53:15.817Z] Error: ENOENT: no such file or directory, open '/Users/viveksingh/development/projects/shreevarnika.in/dist/server/middleware-manifest.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-07-08T05:54:16.319Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T05:54:16.320Z] Command:       /usr/local/bin/firebase /Users/viveksingh/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-07-08T05:54:16.321Z] CLI Version:   12.3.1
+[debug] [2023-07-08T05:54:16.321Z] Platform:      darwin
+[debug] [2023-07-08T05:54:16.321Z] Node Version:  v16.16.0
+[debug] [2023-07-08T05:54:16.322Z] Time:          Sat Jul 08 2023 11:24:16 GMT+0530 (India Standard Time)
+[debug] [2023-07-08T05:54:16.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-08T05:54:16.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T05:54:16.426Z] > authorizing via signed-in user (viveksingh0143@gmail.com)
+[debug] [2023-07-08T05:54:16.426Z] [iam] checking project shree-varnika-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-08T05:54:16.428Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions [none]
+[debug] [2023-07-08T05:54:16.429Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions x-goog-quota-user=projects/shree-varnika-website
+[debug] [2023-07-08T05:54:16.430Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T05:54:18.020Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions 200
+[debug] [2023-07-08T05:54:18.026Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shree-varnika-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T05:54:18.030Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website [none]
+[debug] [2023-07-08T05:54:18.528Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website 200
+[debug] [2023-07-08T05:54:18.530Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website {"projectId":"shree-varnika-website","projectNumber":"195432873456","displayName":"Shree Varnika Website","name":"projects/shree-varnika-website","resources":{"hostingSite":"shree-varnika-website"},"state":"ACTIVE","etag":"1_3dac2206-5644-4862-95f5-c514ebed01ca"}
+[debug] [2023-07-08T05:54:21.892Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites pageToken=&pageSize=10
+[debug] [2023-07-08T05:54:23.126Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 200
+[debug] [2023-07-08T05:54:23.128Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites {"sites":[{"name":"projects/shree-varnika-website/sites/shree-varnika-website","defaultUrl":"https://shree-varnika-website.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-08T05:54:23.130Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 
+[debug] [2023-07-08T05:54:24.362Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites 200
+[debug] [2023-07-08T05:54:24.365Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shree-varnika-website/sites {"sites":[{"name":"projects/shree-varnika-website/sites/shree-varnika-website","defaultUrl":"https://shree-varnika-website.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-08T05:54:24.367Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config [none]
+[debug] [2023-07-08T05:54:25.904Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config 200
+[debug] [2023-07-08T05:54:25.910Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shree-varnika-website/webApps/-/config {"projectId":"shree-varnika-website","appId":"1:195432873456:web:43a4b9affca9794621b135","storageBucket":"shree-varnika-website.appspot.com","apiKey":"AIzaSyDU2m7pd2_3AwbkJCfkWitmaNLXZpae9js","authDomain":"shree-varnika-website.firebaseapp.com","messagingSenderId":"195432873456","measurementId":"G-0Y43X09X9K"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
