@@ -2,6 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+import saffronSaffronVertical from "@/images/products/saffron/saffron-vertical.jpg";
+import silveSilverLeavesVertical from "@/images/products/silver/silver-leaves-vertical.jpg";
+import hingListedHing from "@/images/products/hing-listed/hing.png";
+import elaichiElaichiBottle from "@/images/products/elaichi/elaichi-bottle.jpeg";
+import silverSilverLeavesYellowVertical from "@/images/products/silver/silver-leaves-yellow-vertical.jpeg";
+
+
 export default function HeroSection() {
     return (
         <div className="relative isolate bg-gradient-to-t from-yellow-100 via-yellow-300 to-yellow-500">
@@ -69,7 +76,7 @@ export default function HeroSection() {
                             <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                                 <div className="relative">
                                     <Image
-                                        src="/images/products/saffron/saffron-vertical.jpg"
+                                        src={saffronSaffronVertical}
                                         alt=""
                                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         width="176" height="264"
@@ -80,7 +87,7 @@ export default function HeroSection() {
                             <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                                 <div className="relative">
                                     <Image
-                                        src="/images/products/silver/silver-leaves-vertical.jpg"
+                                        src={silveSilverLeavesVertical}
                                         alt=""
                                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         width="176" height="264"
@@ -89,7 +96,7 @@ export default function HeroSection() {
                                 </div>
                                 <div className="relative">
                                     <Image
-                                        src="/images/products/hing-listed/hing.png"
+                                        src={hingListedHing}
                                         alt=""
                                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         width="176" height="264"
@@ -100,7 +107,7 @@ export default function HeroSection() {
                             <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                                 <div className="relative">
                                     <Image
-                                        src="/images/products/elaichi/elaichi-bottle.jpeg"
+                                        src={elaichiElaichiBottle}
                                         alt=""
                                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         width="176" height="264"
@@ -109,7 +116,7 @@ export default function HeroSection() {
                                 </div>
                                 <div className="relative">
                                     <Image
-                                        src="/images/products/silver/silver-leaves-yellow-vertical.jpeg"
+                                        src={silverSilverLeavesYellowVertical}
                                         alt=""
                                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                         width="176" height="264"
